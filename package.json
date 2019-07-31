@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Onefun1/db-server-node-express-heroku/issues"
   },
-  "homepage": "https://github.com/Onefun1/db-server-node-express-heroku/",
+  "homepage": "https://onefun1.github.io/db-server-node-express-heroku/",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",

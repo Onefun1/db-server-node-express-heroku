@@ -60,7 +60,7 @@
         createUser(movie);
       };
       function createUser(movie) {
-        fetch("http://127.0.0.1:3000/movies", {
+        fetch("https://test-server-node-express.herokuapp.com/movies", {
           method: "POST",
           body: JSON.stringify(movie)
         })
@@ -71,7 +71,7 @@
           });
       }
       function getUsers() {
-        fetch("http://127.0.0.1:3000/movies")
+        fetch("https://test-server-node-express.herokuapp.com/movies")
           .then(res => res.json())
           .then(data => {
             movies = data;

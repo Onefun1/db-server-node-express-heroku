@@ -28,7 +28,12 @@ function writeMovies() {
 
 app.use(bodyParser.text());
 
-app.get("/", (req, res) => res.send(`Hello from Github`));
+app.get("/", (req, res) =>
+  res.send(`<h1>Hello from Github and Heroku</h1>
+<p>Add to address => <b style="color:red;">/movies</b> , and you can see db of this server</p>
+
+`)
+);
 app.get("/movies", (req, res) => {
   res.set("Access-Control-Allow-Origin", "*");
   res.json(movies);
@@ -65,5 +70,5 @@ app.post("/movies", (req, res) => {
 });
 
 app.listen(port, () =>
-  console.log(`Example app listening on http://127.0.0.1:${port}!`)
+  console.log(`Example app listening on http://127.0.0.1:${port} !`)
 );

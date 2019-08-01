@@ -14,15 +14,15 @@
     "movieId": 1564571182766.3252
   },
   {
-    "title": "Star Wars",
-    "year": "1977",
+    "title": "The Shawshank Redemption",
+    "year": "1994",
     "format": "DVD",
     "stars": [
-      "Mark Hamill",
-      "Harrison Ford",
-      "Carrie Fisher",
-      "Peter Cushing",
-      "Alec Guinness"
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton",
+      "William Sadler",
+      "Clancy Brown"
     ],
     "movieId": 1564571182766.4402
   }

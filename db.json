@@ -25,5 +25,31 @@
       "Clancy Brown"
     ],
     "movieId": 1564571182766.4402
+  },
+  {
+    "title": "Forrest Gump",
+    "year": "1994",
+    "format": "DVD",
+    "stars": [
+      "Tom Hanks",
+      "Rebecca Williams",
+      "Michael Conner Humphreys",
+      "Sally Field",
+      "Bob Penny"
+    ],
+    "movieId": 1566452352766.4402
+  },
+  {
+    "title": "Jumanji: The Next Level",
+    "year": "2019",
+    "format": "Blu-ray",
+    "stars": [
+      "Dwayne Johnson",
+      "Awkwafina",
+      "Karen Gillan",
+      "Ashley Scott",
+      "Jack Black"
+    ],
+    "movieId": 1565652352776.4456
   }
 ]
